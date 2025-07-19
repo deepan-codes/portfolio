@@ -1,0 +1,75 @@
+@media (max-width: 46em) {
+  .container {
+    max-width: 50rem;
+    margin: 2rem auto;
+  }
+  html {
+    font-size: 54.5%;
+  }
+  .about-project {
+    line-height: 2.4rem;
+  }
+  .about-me-par {
+    line-height: 2.4rem;
+    padding: 0;
+    max-width: 75rem;
+    padding: 0 1rem;
+  }
+  .hero-photo img {
+    width: 100%;
+    max-width: 200px;
+  }
+  .hero-p {
+    line-height: 2.4rem;
+  }
+  .nav-header {
+    gap: 1rem;
+    max-width: 50rem;
+  }
+  .nav-header:last-child {
+    padding-right: 0rem;
+  }
+  footer {
+    padding: 0%;
+  }
+  .btn {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 33em) {
+  .hero-section {
+    grid-template-columns: 1fr;
+  }
+  .hero-photo img {
+    width: 100%;
+    max-width: 150px;
+  }
+}
+@media (max-width: 29em) {
+  .container {
+    max-width: 40rem;
+  }
+  .skill-list {
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  html {
+    font-size: 44.2%;
+  }
+  .btn {
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    align-self: center;
+
+    text-align: center;
+    width: fit-content;
+  }
+  .nav-link {
+    font-size: 1.5rem;
+  }
+  .user-name {
+    font-size: 2rem;
+  }
+}
