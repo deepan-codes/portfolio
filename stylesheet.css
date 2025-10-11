@@ -73,6 +73,11 @@ html {
   background-color: #273c75;
   align-items: center;
 }
+.header-nav.sticky {
+  position: fixed;
+  background-color: #273c75b9;
+  width: 100%;
+}
 .nav-header {
   display: flex;
   list-style: none;
@@ -281,3 +286,4 @@ footer {
   background-color: #273c75d5;
   padding: 1rem;
 }
+
